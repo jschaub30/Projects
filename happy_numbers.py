@@ -3,10 +3,7 @@
 # https://github.com/karan/Projects
 
 def happy(num, history=[]):
-    #print('Happy of {}'.format(num))
     if num in history:
-        #history.append(num)
-        #print(history)
         return False
     history.append(num)
     if num == 1:
@@ -21,5 +18,4 @@ while count < 10:
         print("{} is happy".format(num))
         count += 1
     num += 1
-
 
